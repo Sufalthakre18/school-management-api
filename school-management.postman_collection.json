@@ -1,0 +1,68 @@
+{
+  "info": {
+    "_postman_id": "6756d959-b664-4607-af01-787d9e7db690",
+    "name": "school-management",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "43545718",
+    "_collection_link": "https://go.postman.co/collection/43545718-6756d959-b664-4607-af01-787d9e7db690?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Add School (POST)",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"La Martiniere School\",\r\n  \"address\": \"Elgin Road, Kolkata\",\r\n  \"latitude\": 22.5448,\r\n  \"longitude\": 88.3426\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/addschool",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "addschool"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "List Schools (GET)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/listschools?latitude=22.5448&longitude=88.3426",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "listschools"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "22.5448"
+            },
+            {
+              "key": "longitude",
+              "value": "88.3426"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
