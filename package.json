@@ -2,9 +2,10 @@
   "name": "school-management-api",
   "version": "1.0.0",
   "description": "A Node.js &amp; Express API for managing school data with MySQL.  Supports adding schools and retrieving a list sorted by proximity using geolocation (Haversine formula).",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "src/app.js",
+   "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Sufalthakre18/school-management-api/issues"
   },
