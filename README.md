@@ -8,7 +8,7 @@ A clean and simple **Node.js + Express + MySQL** REST API to manage schools — 
 
 | | Link |
 |---|---|
-| 🚀 **Live API** | https://school-management-api-z0eu.onrender.com |
+| 🚀 **Live API** | https://school-management-api-vv8c.onrender.com/ |
 | 📦 **GitHub Repo** | https://github.com/Sufalthakre18/school-management-api |
 | 📬 **Postman Collection** | [Download Postman Collection](./school-management.postman_collection.json) |
 
