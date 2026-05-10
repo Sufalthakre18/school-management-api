@@ -221,5 +221,4 @@ Schools are sorted **nearest first** based on this distance.
 
 ## 👨‍💻 Author
 
-**Sufal Thakre**
 GitHub: [@Sufalthakre18](https://github.com/Sufalthakre18)
